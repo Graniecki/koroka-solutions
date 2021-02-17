@@ -87,7 +87,7 @@
 .catalog__search {
   width: 100%;
   padding: 15px 10px 15px 38px;
-  background: url('/img/search.png') no-repeat 12px center;
+  background: url('img/search.png') no-repeat 12px center;
   border: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
@@ -225,15 +225,15 @@
 }
 
 .course_first {
-  background: url('/img/course-1.png') no-repeat center;
+  background: url('img/course-1.png') no-repeat center;
 }
 
 .course_second {
-  background: url('/img/course-2.png') no-repeat center;
+  background: url('img/course-2.png') no-repeat center;
 }
 
 .course_third {
-  background: url('/img/course-3.png') no-repeat center;
+  background: url('img/course-3.png') no-repeat center;
 }
 
 .course__preview::before {
@@ -282,15 +282,15 @@
 }
 
 .course__info span:first-child {
-  background: url('/img/lessons.png') no-repeat 0px center;
+  background: url('img/lessons.png') no-repeat 0px center;
 }
 
 .course__info span:nth-child(2) {
-  background: url('/img/tasks.png') no-repeat 0px center;
+  background: url('img/tasks.png') no-repeat 0px center;
 }
 
 .course__info span:last-child {
-  background: url('/img/minutes.png') no-repeat 0px center;
+  background: url('img/minutes.png') no-repeat 0px center;
 }
 
 .course__buttons {
