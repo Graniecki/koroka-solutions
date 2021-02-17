@@ -253,15 +253,15 @@
 }
 
 .course__info span:first-child {
-  background: url(/img/lessons.png) no-repeat 0px center;
+  background: url('/img/lessons.png') no-repeat 0px center;
 }
 
 .course__info span:nth-child(2) {
-  background: url(/img/tasks.png) no-repeat 0px center;
+  background: url('/img/tasks.png') no-repeat 0px center;
 }
 
 .course__info span:last-child {
-  background: url(/img/minutes.png) no-repeat 0px center;
+  background: url('/img/minutes.png') no-repeat 0px center;
 }
 
 .course__buttons {
@@ -351,7 +351,7 @@
   }
 }
 
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 1024px) {
   .catalog__course {
     max-width: 310px;
   }
