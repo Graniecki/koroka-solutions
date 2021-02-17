@@ -1,0 +1,369 @@
+.catalog > * {
+  padding: 0 15px;
+}
+
+.catalog__header {
+  padding: 20px 15px 15px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  box-shadow: 0px 1px 0px rgba(17, 17, 17, 0.1);
+}
+
+.catalog__logo {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  order: 1;
+}
+
+.catalog__menu {
+  margin-top: 10px;
+  order: 3;
+  width: 100%;
+}
+
+.menu {
+  text-align: center;
+}
+
+.menu__item {
+  margin: 0 5vw;
+  display: inline-block;
+  color: rgba(17, 17, 17, 0.48);
+  cursor: pointer;
+}
+
+.catalog__user {
+  order: 2;
+  flex-grow: 1;
+}
+
+.user {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.user__name {
+  color: #6E41E2;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.user__logo {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #F1F1F1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.catalog__info {
+  padding: 38px 15px;
+  text-align: center;
+}
+
+.catalog__title {
+  margin-bottom: 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2.3rem;
+}
+
+.catalog__description {
+  font-size: 0.95rem;
+}
+
+.catalog__settings {
+  padding: 0 15px;
+}
+
+.catalog__search {
+  width: 100%;
+  padding: 15px 10px 15px 38px;
+  background: url('/img/search.png') no-repeat 12px center;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
+  font-size: 1rem;
+}
+
+.catalog__search::placeholder {
+  font-size: 1rem;
+  color: rgba(17, 17, 17, 0.48);
+}
+
+/** SELECT **/
+
+.select {
+  margin-top: 10px;
+  position: relative;
+  box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
+  border-radius: 4px;
+}
+
+.select.open .select__body {
+  display: block;
+}
+
+.select__header {
+  padding: 15px 10px;
+  display: flex;
+  cursor: default;
+}
+
+.select__current {
+  font-size: 1rem;
+  color: #111111;
+}
+
+.select__icon {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+}
+
+.select__body {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
+  z-index: 3;
+}
+
+.select__item {
+  padding: 15px 10px;
+  cursor: pointer;
+  background-color: #FFFFFF;
+
+  transition: background-color 500ms;
+}
+
+.select__item:hover {
+  background-color: #d9d9d9;
+}
+
+/** SELECT **/
+
+.catalog__courses {
+  margin-top: 15px;
+  padding: 0 15px;
+}
+
+.catalog__course {
+  min-height: 360px;
+  margin: 0 auto 32px;
+  padding-bottom: 15px;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
+}
+
+.course {
+  position: relative;
+  cursor: default;
+}
+
+.course::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 12%;
+  height: 24px;
+  background-color: #27AE60;
+  border-radius: 8px 0 0;
+  z-index: 1;
+}
+
+.course > *:not(:first-child) {
+  padding: 0 20px;
+}
+
+.course__preview {
+  position: relative;
+  height: 134px;
+  background-size: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.course_first {
+  background: url('/img/course-1.png') no-repeat center;
+}
+
+.course_second {
+  background: url('/img/course-2.png') no-repeat center;
+}
+
+.course_third {
+  background: url('/img/course-3.png') no-repeat center;
+}
+
+.course__preview::before {
+  content: "Progress 12%";
+  display: block;
+  position: absolute;
+  left: 20px;
+  top: 4px;
+  font-size: 0.8rem;
+  color: #FFFFFF;
+
+  z-index: 2;
+}
+
+.course__teacher {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 20px;
+  bottom: -8px;
+}
+
+.course__teacher span {
+  margin-left: 12px;
+  font-size: 1rem;
+  color: #FFFFFF;
+}
+
+.course__title {
+  margin: 24px 0 13px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+  color: #111111;
+}
+
+.course__info {
+  margin-bottom: 25px;
+}
+
+.course__info span {
+  padding: 5px 5px 5px 25px;
+  margin-right: 10px;
+  display: inline-block;
+  color: #111111;
+  font-size: 1rem;
+}
+
+.course__info span:first-child {
+  background: url(/img/lessons.png) no-repeat 0px center;
+}
+
+.course__info span:nth-child(2) {
+  background: url(/img/tasks.png) no-repeat 0px center;
+}
+
+.course__info span:last-child {
+  background: url(/img/minutes.png) no-repeat 0px center;
+}
+
+.course__buttons {
+  position: absolute;
+  left: 0;
+  bottom: 15px;
+}
+
+.course__buttons button {
+  padding: 10px 15px;
+  background-color: transparent;
+  border: none;
+  color: #6E41E2;
+  font-size: 1rem;
+}
+
+.course__buttons .continue {
+  border: 1px solid #6E41E2;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 767px) {
+  .catalog__header {
+    padding-top: 10px;
+    padding-bottom: 3px;
+  }
+
+  .catalog__menu {
+    order: 2;
+    flex-grow: 1;
+    margin: 0;
+    width: auto;
+  }
+
+  .menu {
+    margin-right: 56px;
+    text-align: right;
+  }
+
+  .menu__item {
+    margin: 0 12px;
+  }
+
+  .catalog__user {
+    flex-grow: 0;
+  }
+
+  .catalog > * {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .catalog__info {
+    text-align: left;
+  }
+
+  .catalog__description {
+    width: 85%;
+    line-height: 1.2rem;
+  }
+
+  .catalog__settings {
+    display: flex;
+  }
+
+  .catalog__search {
+    width: 79%;
+  }
+
+  .select {
+    margin: 0 0 0 20px;
+    flex-grow: 1;
+  }
+
+  .catalog__courses {
+    margin-top: 28px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .catalog__course {
+    margin-left: 0;
+    margin-right: 0;
+    width: 48%;
+    max-width: 384px;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .catalog__course {
+    max-width: 310px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .catalog__course {
+    max-width: 400px;
+    min-height: 320px;
+  }
+
+  .catalog__description {
+    width: 50%;
+  }
+}
