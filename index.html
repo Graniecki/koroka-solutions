@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <title>Koroka</title>
+  <title>Koroka Solutions</title>
 </head>
 <body>
   <div class="login">
@@ -41,11 +41,10 @@
         <button type="button" class="profile__button profile_register">Registration</button>
         <button type="button" class="profile__button profile_sign">Sign in</button>
       </form>
-
     </div>
   </div>
 
-  <!-- <div class="catalog">
+  <div class="catalog hidden">
     <div class="catalog__header">
       <span class="catalog__logo">Logo</span>
       <nav class="catalog__menu">
@@ -72,11 +71,16 @@
 
     <div class="catalog__settings">
       <input type="text" name="search" class="catalog__search" placeholder="Search">
+
       <div class="select">
         <div class="select__header">
-          <span class="select__current">Your country</span>
+          <span class="select__label">Your country</span>
+          <span class="select__current select_transform">USA</span>
           <div class="select__icon">
             <img src="img/select.png" alt="select-icon">
+          </div>
+          <div class="select__close">
+            <img src="img/close.png" alt="select-icon">
           </div>
         </div>
         <div class="select__body">
@@ -86,6 +90,7 @@
           <div class="select__item">Poland</div>
         </div>
       </div>
+
     </div>
 
     <div class="catalog__courses">
@@ -146,6 +151,8 @@
         </div>
       </div>
     </div>
-  </div> -->
+  </div>
+
+  <script src="main.js"></script>
 </body>
 </html>

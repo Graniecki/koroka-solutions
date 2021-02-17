@@ -1,0 +1,121 @@
+@media screen and (min-width: 364px) {
+  .profile__media {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .profile__form input {
+    margin-bottom: 1rem;
+    padding: 1rem;
+  }
+
+  .profile__button {
+    margin-top: 12px;
+    padding: 1rem;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .login__block {
+    width: 70%;
+  }
+
+  .profile > * {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .catalog__header {
+    padding-top: 10px;
+    padding-bottom: 3px;
+  }
+
+  .catalog__menu {
+    order: 2;
+    flex-grow: 1;
+    margin: 0;
+    width: auto;
+  }
+
+  .menu {
+    margin-right: 56px;
+    text-align: right;
+  }
+
+  .menu__item {
+    margin: 0 12px;
+  }
+
+  .catalog__user {
+    flex-grow: 0;
+  }
+
+  .catalog > * {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .catalog__info {
+    text-align: left;
+  }
+
+  .catalog__description {
+    width: 85%;
+    line-height: 1.2rem;
+  }
+
+  .catalog__settings {
+    display: flex;
+  }
+
+  .catalog__search {
+    width: 79%;
+  }
+
+  .select {
+    margin: 0 0 0 20px;
+    flex-grow: 1;
+  }
+
+  .catalog__courses {
+    margin-top: 28px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .catalog__course {
+    margin-left: 0;
+    margin-right: 0;
+    width: 48%;
+    max-width: 384px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .login__block {
+    width: 60%;
+  }
+
+  .catalog__course {
+    max-width: 310px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .login__block {
+    width: 35%;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .catalog__course {
+    max-width: 400px;
+    min-height: 320px;
+  }
+
+  .catalog__description {
+    width: 50%;
+  }
+}

@@ -1,5 +1,6 @@
-@import "components/login-mobile.css";
+@import "components/login.css";
 @import "components/catalog.css";
+@import "components/media-queries.css";
 
 html {
   font-size: 16px;
@@ -29,4 +30,8 @@ ul, ol {
   background-color: #6E41E2;
   position: absolute;
   bottom: -1rem;
+}
+
+.hidden {
+  display: none;
 }
